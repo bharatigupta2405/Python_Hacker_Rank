@@ -16,7 +16,7 @@ def pageCount(n, p):
     if p%2==0:
         p=p+1
     if d>c:
-        for i in range(1,p+1,2):
+        for j in range(1,p+1,2):
             count+=1
     else:
         for i in range(n,p+1,2):
